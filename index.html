@@ -1,39 +1,76 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Main_Page</title>
+    <title>Normalize</title>
     <link rel="stylesheet" href="typography.css">
 </head>
 
 <body>
-    <header>
-        <h1>Prediction for the NHL Stanley Cup final</h1>
+
+    <header id="1header">
+        <h1><a href="./index.html">Toto je H1</a></h1>
         <nav>
             <ul>
-                <li>Lightning</li>
-                <li>Islanders</li>
+                <li><a href="#1header">Header</a></li>
+                <li><a href="#2main">Main</a></li>
+                <li><a href="#3footer">Footer</a></li>
             </ul>
         </nav>
-
-        <figure>
-            <img src="./Images/NHL_logo.jpg" alt="Stanley Cup Final logo">
-        </figure>
     </header>
 
-    <main>
+    <main id="2main">
+        <h2>Toto je H2</h2>
+        <p>Toto je příklad <strong>odstavce textu</strong>. Projekt vznikl v rámci předmětu web. <abbr
+                title="Střední průmyslová škola strojní a elektrotechnická a vyšší odborná škola">SPŠSE a VOŠ</abbr>
+            Liberec.</p>
+        <p>Toto je příklad <strong>odstavce textu</strong>. Projekt vznikl v rámci předmětu web.<br>Zalomená část
+            odstavce textu.</p>
         <section>
-            <h2>Tampa Bay Lightning</h2>
+            <article>
+                <h3>Toto je H3</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio cumque architecto dolor minus
+                    ducimus. Dignissimos eligendi harum magnam repellendus ea vero nostrum voluptas. Deleniti deserunt
+                    dolore, voluptate culpa alias provident.</p>
+            </article>
+            <article>
+                <h3>Toto je H3</h3>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repellat quae adipisci nihil est possimus
+                    debitis voluptas tempore et, sit suscipit, rerum, placeat illo qui voluptatum vero mollitia. Ipsum,
+                    earum eaque.</p>
+            </article>
         </section>
         <section>
-            <h2>New York Islanders</h2>
+            <figure>
+                <img src="./Images/Blue.jpg" alt="Blue">
+                <figcaption>Popisek: Modrá barva</figcaption>
+            </figure>
+            <figure>
+                <img src="./Images/Brown.jpg" alt="Brown">
+                <figcaption>Popisek: Hnědá barva</figcaption>
+            </figure>
+            <figure>
+                <img src="./Images/Green.jpg" alt="Green">
+                <figcaption>Popisek: Zelená barva</figcaption>
+            </figure>
+            <figure>
+                <img src="./Images/Grey.jpg" alt="Grey">
+                <figcaption>Popisek: Šedá barva</figcaption>
+            </figure>
         </section>
     </main>
 
-    <footer>
-        
+    <footer id="3footer">
+        <h3>Kontakt</h3>
+        <ol>
+            <li>Autor: Richard Komňacký</li>
+            <li>Mail: richard.komnacky@pslib.cz</li>
+            <li><date>25.09.2020</date></li>
+        </ol>
     </footer>
-    
+
 </body>
+
 </html>
