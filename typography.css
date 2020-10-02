@@ -38,6 +38,13 @@ ul {
     padding: 0px 20px;
 }
 
+ol {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    list-style: upper-alpha;
+}
+
 li {
     padding: 0px 30px;
 }
@@ -150,3 +157,169 @@ figcaption {
     font-style: italic;
     font-size: 13px;
 }
+
+
+footer h3 {
+    text-align: center;
+}
+
+
+footer ul {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+footer li {
+    text-align: center;
+    padding: 5px;
+}
+
+
+
+
+
+
+
+
+@media all and (max-width: 1024px) and (min-resolution:96dpi) and (max-resolution:264dpi) {
+
+    header {
+        padding: 5px;
+    }
+
+    ul {
+        padding: 0px 10px;
+    }
+
+    li {
+        padding: 0px 15px;    
+    }
+
+    main {
+        padding: 15px;
+    }
+
+    section {
+        flex-wrap: wrap;
+    }
+
+    article {
+        width: 100%;
+        justify-content: center;
+    }
+
+    h1, h2, h3 {
+        padding: 8px;
+    }
+
+    h1 {
+        font-size: 30px;
+    }
+
+    h2 {
+        font-size: 25px;
+    }
+
+    h3 {
+        font-size: 20px;
+    }
+
+    figure {
+        text-align: center;
+        margin: auto;
+    }
+
+    img {
+        text-align: center;
+        width: 40vw;
+        height: auto;
+    }
+
+}
+
+@media all and (max-width: 950px) and (min-resolution:96dpi) and (max-resolution:264dpi) {
+
+    img {
+        width: 35vw;
+    }
+}
+
+@media all and (max-width: 700px) and (min-resolution:96dpi) and (max-resolution:264dpi) {
+
+    img {
+        width: 30vw;
+    }
+}
+
+@media all and (max-width: 500px) and (min-resolution:96dpi) and (max-resolution:264dpi) {
+
+    img {
+        width: 70vw;
+    }
+}
+
+@media all and (max-width: 360px) and (min-resolution:96dpi) and (max-resolution:264dpi) {
+
+    ul {
+        padding: 0px 4px;
+    }
+
+    li {
+        padding: 0px 8px;
+    }
+
+    main {
+        padding: 10px;
+    }
+
+    section {
+        padding: 10px;
+    }
+
+    footer {
+        padding: 15px;
+    }
+
+    h1 {
+        font-size: 20px;
+    }
+
+    h2 {
+        font-size: 18px;
+    }
+
+    h3 {
+        font-size: 15px;
+    }
+
+    p {
+        padding: 8px;
+        font-size: 12px;
+    }
+
+    img {
+        padding: 5px;
+        width: 70vw;
+    }
+
+    figure {
+        padding: 2px;
+    }
+
+    figcaption {
+        padding: 0 4px;
+        font-size: 10px;
+    }
+
+    li {
+        font-size: 12px;
+    }
+
+    h1, h2, h3 {
+        padding: 0px 5px;
+    }
+}
+
+
