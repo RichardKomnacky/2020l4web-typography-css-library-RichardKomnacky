@@ -328,7 +328,11 @@ footer li {
         width: 100%;
     }
 
-    figure, ol, ul {
-        break-inside: avoid;
+    figure, ol, ul, img {
+        page-break-inside: avoid;
+        display: block;
+
     }
+    
+    
 }
